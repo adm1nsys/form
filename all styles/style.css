@@ -1,0 +1,189 @@
+@font-face { font-family: Samsung Sharp Sans; src: url('../fonts/Font1.otf'); } 
+
+body{
+background: black;
+color: white;
+font-family: Samsung Sharp Sans;
+overflow-x:hidden; 
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+a{
+text-decoration: none;
+}
+
+a:hover{
+cursor: crosshair;
+}
+
+.cm{
+background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(74,74,74,1) 50%, rgba(0,0,0,0) 100%);
+width: 90%;
+height: 150px;
+left: 5%;
+right: 5%;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+}
+
+.c1{
+display: flex; 
+align-content: bottom; 
+width: 100%; 
+align-items: center; 
+margin-top: auto;
+}
+
+.btn1{
+color: white;
+width: 100px;
+border: 2px solid white;
+border-bottom: 0px;
+border-radius: 5px 5px 0px 0px;
+text-align: center;
+padding-top: 12px;
+padding-bottom: 8px;
+font-size: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.btn1:hover{
+background: white;
+color: black;
+border: 2px solid white;
+border-bottom: 0px;
+border-radius: 5px 5px 0px 0px;
+}
+
+.c2{
+width: 90%;
+min-height: 250px;
+border-top: 2px solid white;
+border-bottom: 2px solid white;
+background: rgba(34,34,34,1);
+margin-left: auto;
+margin-right: auto;
+margin-top: -1px;
+border-radius: 25px;
+color: white;
+display: flex;
+}
+
+.l1{
+width: 20%;
+margin-top: 120px;
+display: relative;
+margin-left: 0;
+text-align: center;
+font-size: 50px;
+
+}
+
+.l1-1{
+position: fixed;
+}
+
+.r1{
+width: 73%;
+min-height: 250px;
+border-left: 1.5px solid white;
+padding-left: 20px;
+padding-right: 20px;
+display: relative;
+position: relative;
+margin-right: 0;
+font-size: 50px;
+margin-left: auto;
+}
+
+.lup{
+width: 90%;
+margin-left: auto;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-right: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+background: rgba(34,34,34,1);
+color: white;
+font-size: 50px;
+border-top: 2px solid white;
+border-bottom: 2px solid white;
+border-radius: 25px;
+}
+
+.lup:hover{
+width: 90%;
+margin-left: auto;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-right: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+background: white;
+color: black;
+font-size: 50px;
+border: 2px solid white;
+border-radius: 25px;
+}
+
+.testing{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10vh;
+	font-size: 25px;
+	margin-bottom: 10vh;
+}
+
+h1{
+	font-size: 40px;
+	line-height: 25%;
+}
+
+h2{
+	margin-top: 2em;
+	font-size: 40px;
+	line-height: 0%;
+}
+
+.lup2{
+width: 80%;
+margin-left: auto;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-right: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+background: rgba(34,34,34,1);
+color: white;
+font-size: 50px;
+border-top: 2px solid white;
+border-bottom: 2px solid white;
+border-radius: 25px;
+}
+
+.lup2:hover{
+width: 80%;
+margin-left: auto;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-right: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+background: white;
+color: black;
+font-size: 50px;
+border: 2px solid white;
+border-radius: 25px;
+}
